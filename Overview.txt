@@ -1,0 +1,232 @@
+Instead of being a primarily historically focused game, we can try to balance ranged and melee combat and incorporate more fantastical elements into gameplay. We can focus on balancing melee and ranged combat to make both important and viable. I think ground combat should feel like something between titan combat and battlefront 2, and dragon combat should feel like a good flying game.
+
+Melee combat
+Weapons have a primary attack that does a little bit of damage to both health and armor and a secondary attack (pinpoint thrust, power slash, disarm) depending on the type of weapon that does something else- damaging armor, disarming the enemy, or bypassing the armor if a weak point is hit. Passive blocking should be able to reduce damage taken, but perfect parries should open up chances for combos (unless parried against)
+
+Ranged combat
+Ranged weapons need to have limitations to make melee combat a viable part of the game. This can come from lack of accuracy or slow reload times. We need to figure out if we want limited ammo (forcing players to either go to choke points for ammo or use melee) or unlimited ammo (easier level design, lets players focus on objectives rather than ammo conservation)
+
+Movement
+Pilots don’t move quickly, they’re covered in armor. Depending on their body type they get between 1 and 3 dashes to help them dodge enemies or close distances. They have, however, been imbued with magical powers that let them jump extremely high. Tapping the jump button makes the pilot do a tiny bunny hop. Holding it makes the pilot assume a squat and the longer the squat is held, the higher the pilot will jump, letting him jump over small buildings or to attack low-flying dragons, but makes him vulnerable while he charges that up.
+
+Loadouts
+Every pilot has:
+One of 9 melee weapons
+One of 9 ranged weapons
+A preference (whether they spawn with the ranged or melee weapon held, or randomly switch)
+One of 3 anti-dragon weapon
+One of 5 bonuses (like killstreaks but maybe we award them for stuff other than kills)
+One of 3 body types (trading armor for dashes- titanfall titan combat style)
+10935 possible loadouts
+
+Every dragon has:
+Two of 12 fires (ranged)
+One of 3 melee attacks (think knife in CoD)
+One of 4 defenses
+One of 5 body types
+One of 4 perks
+15840 possible loadouts
+
+
+Melee weapons:
+	damage
+blocking-mixed-range
+	speed
+chopping sword; scimitana; hook sword (two handed style, power slash)
+knightkiller; serpent sword; boar sword (halfsword styles, pinpoint thrust)
+Hookaxe; African style chopper; dueling sword (one handed style, disarm)
+
+Ranged weapons: (think sea of thieves type reload or CoD crossbow reload to balance out melee)
+	maneuverability
+speed-mixed-damage
+	range
+cho-ku-no (SMG); mini crossbow (pistol); hand rocket
+quick reload crossbow; regular crossbow; hand cannon
+3-shot crossbow (shotgun); windlass crossbow; hook gun
+
+Anti Dragon Weapons
+ice dragon (tracks down enemy dragons, attacks and comes back)
+laser dragon (pilot holds a dragon that charges up a laser shot like the charge rifle)
+anti-dragon pike (pilot crushes a gem that turns into a huge 18’ pike for meleeing dragons)
+
+Bonuses:
+Minotaur (auto titan, fights ground enemies)
+Ballista (static anti-dragon turret)
+Mage staff (super ranged weapon)
+Poleaxe (super melee weapon)
+Trebuchet strike (airstrike)
+
+Pilot body types
+Light (stryder)
+Medium (atlas)
+Heavy (ogre)
+
+Pilot aesthetics
+Helmet
+Dagger
+Banner
+Title
+
+Dragon fires:
+	4x Air to Air
+Multi-lock (attacks multiple enemies quickly but for little damage), single-lock (smart pistol), semi-active (have to keep looking to stay locked on, lots of damage), long range (locks at long range, but won’t lock at close range and doesn’t track well)
+	4x Manual
+Charge shot (the longer it’s charged, the faster it goes), standard (semi-auto), spray (short range wide angle continuous fire), rockets (lots of little fires super fast at once)
+	4x Air to ground
+Ground lock (locks onto ground enemies), bomb (lobs and then explodes), fog and spark (first drop cloud of green gas, then a spark to blow up the whole area), bouncer (launches 3 small fireballs that bounce around and then explode in small explosions)
+
+Dragon melees:
+Bite (standard knife)
+Gator roll (grab and hold, then flying around can do more damage)
+Headbutt (less damage, but more range)
+
+Dragon defenses:
+Flares (dragon shoots tiny fires behind itself to distract lock-ons)
+Smoke (drops big cloud of smoke that can be hidden in and distracts lock-ons while it’s there)
+Team heal (sprays green fire that heals whatever teammates or enemies it hits)
+Gargoyle (damages enemies that melee you)
+
+Dragon Perks:
+Health regen (dragon very slowly regenerates health)
+Hard belly (slightly reduced damage from ground attacks)
+High flyer (increased max altitude)
+Big lunge  (increased melee range)
+
+Dragon body types
+Drake (standard dragon)
+Feilong (Asian style dragon. High agility, low health, quick acceleration)
+Tarragon (Tank. Sluggish acceleration and turning, fast maximum speed, lots of health)
+Wyvern (Ground attack. Increased agility at low altitude, bad agility at high altitude, can brake all the way to a hover)
+Ophidian (Air to air. Increased agility at high altitude, bad agility at low altitude, slower enemy lock ons)
+
+Dragon aesthetics
+Saddle
+Head (unique to each body type)
+ 
+Gameplay
+
+Friendly fire- teammates block your shots but do not take damage
+
+Game types: story (bf2 story style), instant action (bot matches), private match, public match
+Possible Game modes: conquest (attrition from titanfall + conquest from bf2), siege (cs:go but CTF), Cornucopia (grifball but on regular map w/ no dragons or minions, player with the cornucopia keeps eating out of it), Wizard (marked for death but the marked player has the poleaxe and the wizard staff), Wingman (2v2 round based dragons vs dragons). I think we should have at least 3 game types.
+
+Match start: in conquest, players ride into the battle on their dragons. In siege, the attacking team starts with dragons and the defenders don’t. In wizard, players start without dragons. In Cornucopia, there are no dragons at all.
+
+Destructibility: Wood can be destroyed, stone cannot. Destroyed objects just get deleted when their health reaches 0, they don’t have progressive wear or anything. What this means is that dragons can destroy the roofs of houses to root out pesky enemies, pilots can cross bridges and then destroy them to keep from being followed, but that we can plan beforehand what people will destroy and build maps around that.
+
+Teams
+There will always be a chrome team and a black team (we need names for these) based on the color of their armor. Whichever team the player is, their teammates will have blue accents and their enemies will have red ones- things like plumes, capes, etc. Minions will wear friendly colored clothes as well. I think 4v4 is a good team size, compromising the number of people in a team and the required playerbase.
+
+Minions
+The only mode that wouldn’t have minions would be cornucopia. Wingman and wizard modes shouldn’t have ballistas and gargoyles. In every other mode, archers (spectors), peasants (grunts), Men at Arms (bots who call in minotaurs instead of dragons) ballistas (anti-dragon), gargoyles (anti-pilot), and fat dragons (troop carriers). 
+Production plan
+
+Engine selection
+Source code search- 3PS, flying game, vehicle + nonvehicle
+3rd person movement- controls, camera, dashing
+Ranged combat and armor with basic crossbow
+Melee combat and armor with basic sword
+Pilot classes and all the weapons
+Mounting and unmounting dragons
+Dragon flight with basic dragon
+Dragon vs ground combat
+Dragon vs dragon combat
+Dragon classes and all the stuff
+Loadouts and UI
+Custom aesthetics
+Matchmaking-casual
+Matchmaking-competitive
+Matchmaking-private
+Minion AI
+Minion balancing
+Bot AI
+Bot balancing
+Offline play
+Bonuses (killstreaks)
+Dragon countdown and dragonfall
+Auto-dragon AI and command
+3D models
+Animations
+Map designs
+Game modes
+Balance
+Monetization
+ 
+Monetization plan
+
+Preferred
+Sell specific aesthetics (dragon heads, banners, daggers, titles)
+Sell item pass to unlock new aesthetics with progression (like rocket league but permanent instead of seasonal)
+
+Other
+Sell competitive access (players have to pay $10 to be able to play competitive or something similar)
+Advertise in menu screens
+Players pay a subscription (a dollar every 3 months or something small) to be able to play online
+Charge for the game
+
+
+ 
+Engine choices
+
+Godot
+Pros:
+Used with YMATEOTW
+Python-like language
+Node structure makes for easy scene building
+Excellent 3D rendering and graphics
+Great documentation
+Free
+Cons:
+Very little source code to steal
+Have to make levels from scratch
+Physics aren’t great
+https://godotengine.org
+https://github.com/godotengine/godot
+
+
+Torque
+Pros:
+C++ like language
+Optimized for online multiplayer
+Terrain painting level design system
+Good physics
+3PS source code already in place (orc game)
+Free
+Cons:
+Ok documentation
+No one we know has experience with it
+No dev support for a long time
+http://www.garagegames.com/products/torque-3d
+https://github.com/GarageGames/Torque3D
+
+Unity
+Pros:
+Everybody uses it
+Cons:
+The documentation is trash
+The documentation is all videos
+The documentation is not useful
+The documentation is bad
+The people who recommend you use Unity are bad people
+
+
+
+Source
+Pros:
+Good enough to make Titanfall
+AAA quality
+C++
+Lots of built-in tools
+Level editor
+Cons:
+Might be too much for what we need, too hard to figure out
+Proprietary
+
+Unreal Engine
+Pros:
+Designed for FPS
+AAA quality
+Good enough to make Chivalry
+Cons:
+Too much for us to handle
+Proprietary
