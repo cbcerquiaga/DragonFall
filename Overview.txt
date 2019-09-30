@@ -38,11 +38,12 @@ Hookaxe; African style chopper; dueling sword (one handed style, disarm)
 
 Ranged weapons: (think sea of thieves type reload or CoD crossbow reload to balance out melee)
 	maneuverability
-speed-mixed-damage
-	range
-cho-ku-no (SMG); mini crossbow (pistol); hand rocket
-quick reload crossbow; regular crossbow; hand cannon
-3-shot crossbow (shotgun); windlass crossbow; hook gun
+   speed-mixed-damage
+	accuracy
+	
+cho-ku-no (SMG), 3-shot crossbow (shotgun), hand rocket
+quick reload crossbow, crossbow, hand cannon
+mini crossbow, windlass crossbow, hook gun
 
 Anti Dragon Weapons
 ice dragon (tracks down enemy dragons, attacks and comes back)
