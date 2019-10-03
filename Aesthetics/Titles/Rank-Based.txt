@@ -1,0 +1,20 @@
+Page
+Squire
+Man At Arms
+Knight
+Landed Gentry
+Lesser Lord
+Warlord
+Lord
+Baron
+Royal Emissary
+Viscount
+Earl
+Marquis
+Duke
+Paladin
+Prince
+Crown Prince
+King
+High King
+Emperor

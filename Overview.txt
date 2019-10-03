@@ -9,6 +9,20 @@ Ranged weapons need to have limitations to make melee combat a viable part of th
 Movement
 Pilots don’t move quickly, they’re covered in armor. Depending on their body type they get between 1 and 3 dashes to help them dodge enemies or close distances. They have, however, been imbued with magical powers that let them jump extremely high. Tapping the jump button makes the pilot do a tiny bunny hop. Holding it makes the pilot assume a squat and the longer the squat is held, the higher the pilot will jump, letting him jump over small buildings or to attack low-flying dragons, but makes him vulnerable while he charges that up.
 
+Health System
+Pilots have both armor and health. Armor takes permanent damage, but as long as there is some armor it absorbs most of the damage from attacks with only some going to health. Health regenerates, but once it runs out, a pilot is mortally wounded. Mortally wounded pilots have a small amount of health that drains until they die. Who or whatever mortally wounds a pilot is credited with the kill. Mortally wounded pilots can be instantly killed with a finishing move (dagger attack), which repairs the armor of whoever does the attack.
+AI enemies do not get mortally wounded, and just immediately die when they run out of health. Some attacks, such as dragon fire, bypass pilot armor completely.
+Dragons do not have armor- only health. Dragon health slowly regenerates on its own, but regenerates much faster when the dragon has a full belly. Players can fill their dragons' bellies by eating pilots and small AIs (not dragons or minotaurs). Belly fullness will last for a moderate amound of time, then drain back to 0, at which point the dragon regenerates health at the usual rate.
+
+Minimap
+Dragons provide minimap vision. If a friendly dragon is flying over or circling over an area, then you and all of your allies can see every AI and enemy player in a small area around that dragon.
+
+Dragonfall
+Every player has a fixed amount of time before they unlock a dragon. When a player completes actions towards the objective or gets kills, they reduce the amount of time on the timer. Once the timer expires, the player's dragon will fly into the map and circle above the max height, out of reach of other dragons and providing a circle of minimap vision. When the player presses the drop button, the dragon lands at or near where the player is aiming their reticle, killing whatever enemies it lands on and then becoming available to ride. Only the player that drops the dragon can ride it, and enemies that get near it will get attacked. Dragons are vulnerable on the ground like this, but can be ordered to follow the pilot (and attack what they attack) or stay put. If the dragon is far away and ordered to follow, it will fly over to the pilot.
+
+Bonuses
+Once a player has unlocked a dragon, a new timer starts. This timer continues even if the player's dragon dies (both timers go at once then). Just like the dragon timer, getting kills or completing mode objectives shaves time off of the timer. When the timer finishes, the player unlocks their chosen loadout's bonus, which they can either drop (barrage and minotaur) or immediately equip (poleaxe or wizard staff).
+
 Loadouts
 Every pilot has:
 One of 9 melee weapons
