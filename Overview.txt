@@ -21,7 +21,7 @@ Dragonfall
 Every player has a fixed amount of time before they unlock a dragon. When a player completes actions towards the objective or gets kills, they reduce the amount of time on the timer. Once the timer expires, the player's dragon will fly into the map and circle above the max height, out of reach of other dragons and providing a circle of minimap vision. When the player presses the drop button, the dragon lands at or near where the player is aiming their reticle, killing whatever enemies it lands on and then becoming available to ride. Only the player that drops the dragon can ride it, and enemies that get near it will get attacked. Dragons are vulnerable on the ground like this, but can be ordered to follow the pilot (and attack what they attack) or stay put. If the dragon is far away and ordered to follow, it will fly over to the pilot.
 
 Bonuses
-Once a player has unlocked a dragon, a new timer starts. This timer continues even if the player's dragon dies (both timers go at once then). Just like the dragon timer, getting kills or completing mode objectives shaves time off of the timer. When the timer finishes, the player unlocks their chosen loadout's bonus, which they can either drop (barrage and minotaur) or immediately equip (poleaxe or wizard staff).
+Both teams have a timer for player bonuses. Just like the dragon timer, getting kills or completing mode objectives shaves time off of the time. When the timer finishes, every player on the team unlocks their chosen loadout's bonus, which they can either drop on command (barrage and minotaur) or immediately equips as one of their weapons (poleaxe or wizard staff).
 
 Loadouts
 Every pilot has:
