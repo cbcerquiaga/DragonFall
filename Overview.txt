@@ -1,7 +1,7 @@
 Instead of being a primarily historically focused game, we can try to balance ranged and melee combat and incorporate more fantastical elements into gameplay. We can focus on balancing melee and ranged combat to make both important and viable. I think ground combat should feel like something between titan combat and battlefront 2, and dragon combat should feel like a good flying game.
 
 Melee combat
-Weapons have a primary attack that does a little bit of damage to both health and armor and a secondary attack (pinpoint thrust, power slash, disarm) depending on the type of weapon that does something else- damaging armor, disarming the enemy, or bypassing the armor if a weak point is hit. Passive blocking should be able to reduce damage taken, but perfect parries should open up chances for combos (unless parried against)
+Weapons have a primary attack that does a little bit of damage to both health and armor and a secondary attack (pinpoint thrust, power slash, spin) depending on the type of weapn that is more powerful (does more damage, bypasses blocks, attacks multiple enemies). While players are blocking, their look sensitivity is reduced, making them vulnerable to flank attacks. If a player attacks a blocking player in the front, they become temporarilty stunned, making them vulnerable to counterattacks.
 
 Ranged combat
 Ranged weapons need to have limitations to make melee combat a viable part of the game. This can come from lack of accuracy or slow reload times. We need to figure out if we want limited ammo (forcing players to either go to choke points for ammo or use melee) or unlimited ammo (easier level design, lets players focus on objectives rather than ammo conservation)
@@ -10,8 +10,9 @@ Movement
 Pilots don’t move quickly, they’re covered in armor. Depending on their body type they get between 1 and 3 dashes to help them dodge enemies or close distances. They have, however, been imbued with magical powers that let them jump extremely high. Tapping the jump button makes the pilot do a tiny bunny hop. Holding it makes the pilot assume a squat and the longer the squat is held, the higher the pilot will jump, letting him jump over small buildings or to attack low-flying dragons, but makes him vulnerable while he charges that up.
 
 Health System
-Pilots have both armor and health. Armor takes permanent damage, but as long as there is some armor it absorbs most of the damage from attacks with only some going to health. Health regenerates, but once it runs out, a pilot is mortally wounded. Mortally wounded pilots have a small amount of health that drains until they die. Who or whatever mortally wounds a pilot is credited with the kill. Mortally wounded pilots can be instantly killed with a finishing move (dagger attack), which repairs the armor of whoever does the attack.
+Pilots have both armor and health. Armor takes permanent damage, but as long as there is some armor it absorbs most of the damage from attacks with only some going to health. Health regenerates, but once it runs out, a pilot is mortally wounded. Mortally wounded pilots have a small amount of health that drains until they die and can only use their dagger. Who or whatever mortally wounds a pilot is credited with the kill. Mortally wounded pilots can be instantly killed with a finishing move (dagger attack), which repairs the armor of whoever does the attack.
 AI enemies do not get mortally wounded, and just immediately die when they run out of health. Some attacks, such as dragon fire, bypass pilot armor completely.
+Attacks that hit the head are 50% absorbed by armor if there is any, attacks to the body are 75% absorbed by armor. This means that there are tactical advantages and disadvantages for aiming for the head, since one can get a quick kill that way but won't do as much permanent armor damage.
 Dragons do not have armor- only health. Dragon health slowly regenerates on its own, but regenerates much faster when the dragon has a full belly. Players can fill their dragons' bellies by eating pilots and small AIs (not dragons or minotaurs). Belly fullness will last for a moderate amound of time, then drain back to 0, at which point the dragon regenerates health at the usual rate.
 
 Minimap
@@ -20,8 +21,8 @@ Dragons provide minimap vision. If a friendly dragon is flying over or circling 
 Dragonfall
 Every player has a fixed amount of time before they unlock a dragon. When a player completes actions towards the objective or gets kills, they reduce the amount of time on the timer. Once the timer expires, the player's dragon will fly into the map and circle above the max height, out of reach of other dragons and providing a circle of minimap vision. When the player presses the drop button, the dragon lands at or near where the player is aiming their reticle, killing whatever enemies it lands on and then becoming available to ride. Only the player that drops the dragon can ride it, and enemies that get near it will get attacked. Dragons are vulnerable on the ground like this, but can be ordered to follow the pilot (and attack what they attack) or stay put. If the dragon is far away and ordered to follow, it will fly over to the pilot.
 
-Bonuses
-Both teams have a timer for player bonuses. Just like the dragon timer, getting kills or completing mode objectives shaves time off of the time. When the timer finishes, every player on the team unlocks their chosen loadout's bonus, which they can either drop on command (barrage and minotaur) or immediately equips as one of their weapons (poleaxe or wizard staff).
+Boost Cards
+One life per match, players can activate a boost card. This boost will either be a buff that lasts the rest of the life (one extra dash, killing peasants reduces dragon time, poleaxe replaces melee weapon, wizard staff replaces ranged weapon, etc) or an expendable ability (drop a minotaur or ballista, call in a barrage, smoke bomb). Boost cards can only be used once per match, but players can use the same boost in as many matches as they would like. Players have to equip 3 boosts before the match, and they equip to the profile, not to individual loadouts. Boost cards are not available in certain game modes, as they would break wingman and cornucopia.
 
 Loadouts
 Every pilot has:
@@ -29,9 +30,10 @@ One of 9 melee weapons
 One of 9 ranged weapons
 A preference (whether they spawn with the ranged or melee weapon held, or randomly switch)
 One of 3 anti-dragon weapon
-One of 5 bonuses (like killstreaks but maybe we award them for stuff other than kills)
 One of 3 body types (trading armor for dashes- titanfall titan combat style)
-10935 possible loadouts
+One of 4 defensive abilites
+One of 5 passive perks
+29160 possible loadouts
 
 Every dragon has:
 Two of 12 fires (ranged)
@@ -48,14 +50,19 @@ blocking-mixed-range
 	speed
 chopping sword; scimitana; hook sword (two handed style, power slash)
 knightkiller; serpent sword; boar sword (halfsword styles, pinpoint thrust)
-Hookaxe; African style chopper; dueling sword (one handed style, disarm)
+Hookaxe; African style chopper; dueling sword (one handed style, spin)
+
+Special attacks
+Two handed weapons: Power slash. Hold to charge up, during which time the player can't move but can aim. When the attack is fully charged, release to lunge at the enemy and do massive damage
+Halfsword weapons: Pinpoint thrust. Just like the regular attack, but has less range. It completely bypasses enemy blocks.
+One handed weapons: Spin. The player spins, doing less than normal damage, but doing it to every enemy in range in a circular area.
 
 Ranged weapons: (think sea of thieves type reload or CoD crossbow reload to balance out melee)
 	maneuverability
    speed-mixed-damage
 	accuracy
 	
-cho-ku-no (SMG), 3-shot crossbow (shotgun), hand rocket
+cho-ku-no (SMG), 3-shot crossbow (has a magazine), hand rocket
 quick reload crossbow, crossbow, hand cannon
 mini crossbow, windlass crossbow, hook gun
 
@@ -64,12 +71,18 @@ ice dragon (tracks down enemy dragons, attacks and comes back)
 laser dragon (pilot holds a dragon that charges up a laser shot like the charge rifle)
 anti-dragon pike (pilot crushes a gem that turns into a huge 18’ pike for meleeing dragons)
 
-Bonuses:
-Minotaur (auto titan, fights ground enemies)
-Ballista (static anti-dragon turret)
-Mage staff (super ranged weapon)
-Poleaxe (super melee weapon)
-Trebuchet strike (airstrike)
+Defensive abilities
+Invisibility Cloak (turn invisible to dragons and far away enemies for a short time but can't attack or visibility returns)
+Magic Shield (fire-based attacks won't do any damage, but the shield is a big, highly visible sphere and other attacks still do damage)
+Kite Shield (plant in place and pull out a big shield that blocks fire where you are pointing it. Like melee weapon block, but much slower. Also effective against regular ranged attacks if pointed the right way, but look sensitivity is slowed too making it much easier to shoot them in the back)
+Holy Water Sprinkler (load a grenade into your ranged weapon that if it hits temporarily blinds dragons. Press reload to switch back)
+
+Pilot Perks
+Crouching Noble, Hidden from Dragon (when crouched and not firing a weapon, do not appear on minimap)
+Running Reload (can reload while moving)
+Quick draw (switch between weapons more quickly)
+Come Hither towardst I, Sir Brother (increased movement speed with melee weapon drawn)
+Big Hoister (knife attack pushes enemies further away than normal)
 
 Pilot body types
 Light (stryder)
@@ -81,6 +94,20 @@ Helmet
 Dagger
 Banner
 Title
+
+Boosts:
+Minotaur (auto titan, fights ground enemies)
+Ballista (static anti-dragon turret)
+Mage staff (super ranged weapon)- maybe should replace melee weapon too?
+Poleaxe (super melee weapon)- maybe should replace ranged weapon too?
+Trebuchet strike (airstrike)
+Extra dash (adds one dash to current pilot body)
+Quick regen (health regenerates faster)
+Peasant Hunter (killing peasants reduces dragon time faster)
+Warfighter (killing bots reduces the dragon time faster)
+Smoke bomb (defensive ability is replaced by a smoke bomb that teleports you to a safe place one time)
+Rematch (respawn where you died instead of at a command post)
+Neutral (enemy AIs won't attack you until you attack one of them, does not apply to knights)
 
 Dragon fires:
 	4x Air to Air
@@ -125,6 +152,8 @@ Friendly fire- teammates block your shots but do not take damage
 Game types: story (bf2 story style), instant action (bot matches), private match, public match
 Possible Game modes: conquest (attrition from titanfall + conquest from bf2), siege (cs:go but CTF), Cornucopia (grifball but on regular map w/ no dragons or minions, player with the cornucopia keeps eating out of it), Wizard (marked for death but the marked player has the poleaxe and the wizard staff), Wingman (2v2 round based dragons vs dragons). I think we should have at least 3 game types.
 
+Respawning: Players will almost always spawn at command posts. In conquest mode, this means that players may not be able to spawn because their team does not control any command posts (can't respawn at neutral or enemy controlled ones). In other modes, command posts can't be captured and this is not an issue, or there isn't even respawning. The only way to respawn anywhere other than a command post is to use the rematch boost card.
+
 Match start: in conquest, players ride into the battle on their dragons. In siege, the attacking team starts with dragons and the defenders don’t. In wizard, players start without dragons. In Cornucopia, there are no dragons at all.
 
 Destructibility: Wood can be destroyed, stone cannot. Destroyed objects just get deleted when their health reaches 0, they don’t have progressive wear or anything. What this means is that dragons can destroy the roofs of houses to root out pesky enemies, pilots can cross bridges and then destroy them to keep from being followed, but that we can plan beforehand what people will destroy and build maps around that.
@@ -136,9 +165,8 @@ Minions
 The only mode that wouldn’t have minions would be cornucopia. Wingman and wizard modes shouldn’t have ballistas and gargoyles. In every other mode, archers (spectors), peasants (grunts), Men at Arms (bots who call in minotaurs instead of dragons) ballistas (anti-dragon), gargoyles (anti-pilot), and fat dragons (troop carriers). 
 Production plan
 
-Engine selection
 Source code search- 3PS, flying game, vehicle + nonvehicle
-3rd person movement- controls, camera, dashing
+3rd person movement- controls, camera, dashing, jumping
 Ranged combat and armor with basic crossbow
 Melee combat and armor with basic sword
 Pilot classes and all the weapons
@@ -166,6 +194,20 @@ Map designs
 Game modes
 Balance
 Monetization
+
+
+Map Concepts
+Standard Maps (for standard modes, designed to limit pilots to a small area but give dragons lots of room to fly)
+Harbor: A semicircular map with water on one side and a mountain range on the other restricting pilot movement. Teams start on opposite sides of the map, separated by a mountain. Players can go around the mountain, fighting through a city with lots of verticality and open sightlines, or through tunnels through the mountain which are full of choke points and tight spaces. Pilots can't go in the water, but dragons can fly over it, drastically expanding the size of the map for air combat.
+Ravine: Two flat areas are separated by a huge gorge and sit between two giant mountain ranges. On one side sits a castle, which provides a safe place to snipe as long as no one jumps over the walls to flank you. Surrounding the castle is forest, which allows players to constantly have cover and hopefully lead to fast paced combat as players dash from tree to tree chasing their enemies down. Across the gorge sits a town, with lots of buildings to hide near to try and snipe the people in the castle. To get between the town and the castle, there is a main bridge, which acts as an open area, 2 smaller destructible bridges, and a hidden mountain pass. Even though the map is sqeezed between two giant mountain ranges, there is still room for dragons to turn as the map gets wider towards the mountains' peaks. Dragons can fly in the wide area around the players, or can fly down the length of the valley. Skilled pilots will fly below the bridges and inside the ravine itself, but less experienced ones will crash trying to do so.
+Bazaar: On the coast of a giant, sandy desert sits a Y-shaped town. Inside the town, there are buildings and market stalls to create cover and verticality, but players need to be careful not to be sniped by players in other parts of town, since wide open areas betweeh the Y-arms make for easy sightlines to hit careless players. To get to a different part of town, players can brave those open areas, hoping to be fast or sneaky enough to not get hit before going to cover. Alternatively, they can go through the choke point in the middle of the city and fight their way there. With the desert extending in one direction and water on the other, dragons have no obstructions to their flying at all on this map.
+Spire: In an extremely wide open and vertical map, players fight one another on a huge ramp that spirals around the outside of a massive tower. Since they are vulnerable to dragons on the ramp, they can duck into a door to go inside the tower, where there are multiple levels of balconies that can be leaped between by skilled players. At the top of the tower is a fortress, which is where most of the close sutained would occur since there is little cover anywhere else on the map.
+
+Small maps (designed for cornucopia specifically but we could put any pilot only modes in them)
+Fortress: In a circular arena, players either need to jump over walls or squeeze around them to get across the map. The goals/flags/command posts sit atop circular turrets which themselves are surrounded by another layer of walls. The idea is to force players to choose to jump over walls into an area they can't see, sit on top of walls without any cover, or take a long route along the outer edge of the map to get across.
+Elysium: A rectangular field with only a few pieces of cover. Designed to force players to move quickly or die.
+No-man's land: An hourglass-shaped arena with tons of cover at either end and a wide open no-man's land in the middle with small cover like Elysium. Designed to make teams need to attack together or risk getting shut down by a well-protected enemy team.
+Hexagon: A hexagon-shaped arena modeled after the standard MOBA 3-lane map. The middle lane is the widest and shortest, meaning that a match focused here will end quickly, but to either side sits a relatively safe "jungle" which should mimic the gameplay in the forest area of the ravine map. Beyond the jungle are the two outside lanes, which are narrower. The outside lanes have a moderate amount of cover to protect against attacks from the same lane, but are completely safe from attacks from the middle lane unless they jump on top of the cover. The idea in this map is to let players use tactics they're already familiar with in a scenario that is relatively new to them.
  
 Monetization plan
 
