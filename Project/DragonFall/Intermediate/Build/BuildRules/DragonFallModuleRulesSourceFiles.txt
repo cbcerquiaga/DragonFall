@@ -1,3 +1,0 @@
-/Users/Blake/Documents/GitHub/DragonFall/Project/DragonFall/Source/DragonFall/DragonFall.Build.cs
-/Users/Blake/Documents/GitHub/DragonFall/Project/DragonFall/Source/DragonFall.Target.cs
-/Users/Blake/Documents/GitHub/DragonFall/Project/DragonFall/Source/DragonFallEditor.Target.cs
