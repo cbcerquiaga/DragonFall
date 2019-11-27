@@ -38,36 +38,37 @@ One of 5 passive perks
 Every dragon has:
 Two of 12 fires (ranged)
 One of 3 melee attacks (think knife in CoD)
-One of 4 defenses
 One of 5 body types
 One of 4 perks
-15840 possible loadouts
+3960 possible loadouts
 
 
 Melee weapons:
-	damage
-blocking-mixed-range
-	speed
-chopping sword; scimitana; hook sword (two handed style, power slash)
-knightkiller; serpent sword; boar sword (halfsword styles, pinpoint thrust)
-Hookaxe; African style chopper; dueling sword (one handed style, spin)
+2-handed: estoc, greatsword, messer
+1-handed: falchion, sidesword, mace
+halfsword: longsword, boar sword, piercer/"zwongsowrd"
+special: poleaxe, dagger
 
 Special attacks
 Two handed weapons: Power slash. Hold to charge up, during which time the player can't move but can aim. When the attack is fully charged, release to lunge at the enemy and do massive damage
-Halfsword weapons: Pinpoint thrust. Just like the regular attack, but has less range. It completely bypasses enemy blocks.
+Halfsword weapons: Pommel smash. A slower than normal but heavier than normal attack that involves quickly flipping over the right hand and swinging the sword down vertically.
 One handed weapons: Spin. The player spins, doing less than normal damage, but doing it to every enemy in range in a circular area.
 
 Ranged weapons: (think sea of thieves type reload or CoD crossbow reload to balance out melee)
-	maneuverability
-   speed-mixed-damage
-	accuracy
-	
-cho-ku-no (SMG), 3-shot crossbow (has a magazine), hand rocket
-quick reload crossbow, crossbow, hand cannon
-mini crossbow, windlass crossbow, hook gun
+Weapon-special feature
+standard crossbow- quick switch to melee weapon
+repeating crossbow-multi bolt reload
+heatseeker- slight heatseeking effect
+quick reload crossbow- faster reload
+belly bow- charge down to fire harder shot
+scoped gun/bow- has a scope
+? -no bullet drop
+hook gun- suppression effect
+rocket gun- starts fires
+magician staff- only available from bonus card
 
 Anti Dragon Weapons
-ice dragon (tracks down enemy dragons, attacks and comes back)
+ice dragon (tracks down enemy dragons, attacks and comes back OR fires an arcing ball that explodes in a big ball of ice flak)
 laser dragon (pilot holds a dragon that charges up a laser shot like the charge rifle)
 anti-dragon pike (pilot crushes a gem that turns into a huge 18’ pike for meleeing dragons)
 
@@ -122,11 +123,12 @@ Bite (standard knife)
 Gator roll (grab and hold, then flying around can do more damage)
 Headbutt (less damage, but more range)
 
-Dragon defenses:
-Flares (dragon shoots tiny fires behind itself to distract lock-ons)
-Smoke (drops big cloud of smoke that can be hidden in and distracts lock-ons while it’s there)
-Team heal (sprays green fire that heals whatever teammates or enemies it hits)
-Gargoyle (damages enemies that melee you)
+Dragon abilities:
+Flares (dragon shoots tiny fires behind itself to distract lock-ons), Ophidian
+Wrath (temporary damage boost for all attacks), Feilong
+Team heal (sprays green fire that heals whatever teammates or enemies it hits), Drake
+Harden (temporary immunity to ground attacks), Wyvern
+Afterburner (speed burst), Tarragon
 
 Dragon Perks:
 Health regen (dragon very slowly regenerates health)
@@ -138,8 +140,8 @@ Dragon body types
 Drake (standard dragon)
 Feilong (Asian style dragon. High agility, low health, quick acceleration)
 Tarragon (Tank. Sluggish acceleration and turning, fast maximum speed, lots of health)
-Wyvern (Ground attack. Increased agility at low altitude, bad agility at high altitude, can brake all the way to a hover)
-Ophidian (Air to air. Increased agility at high altitude, bad agility at low altitude, slower enemy lock ons)
+Wyvern (Ground attack. Can brake all the way to a hover)
+Ophidian (Air to air. Invisible on radar)
 
 Dragon aesthetics
 Saddle
