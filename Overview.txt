@@ -1,22 +1,25 @@
 Instead of being a primarily historically focused game, we can try to balance ranged and melee combat and incorporate more fantastical elements into gameplay. We can focus on balancing melee and ranged combat to make both important and viable. I think ground combat should feel like something between titan combat and battlefront 2, and dragon combat should feel like a good flying game.
 
 Melee combat
-Weapons have a primary attack that does a little bit of damage to both health and armor and a secondary attack (pinpoint thrust, power slash, spin) depending on the type of weapn that is more powerful (does more damage, bypasses blocks, attacks multiple enemies). While players are blocking, their look sensitivity is reduced, making them vulnerable to flank attacks. If a player attacks a blocking player in the front, they become temporarilty stunned, making them vulnerable to counterattacks.
+Weapons have a primary attack that does a little bit of damage to both health and armor and a secondary attack (power lunge, pommel smash, spin) depending on the type of weapn that is more powerful (does more damage, bypasses blocks, attacks multiple enemies). While players are blocking, their look sensitivity and movement speed is reduced, making them vulnerable to flank attacks. If a player attacks a blocking player in the front, they become temporarilty stunned, making them vulnerable to counterattacks. Melee attacks are quick (to prevent manual faking and to focus on movement and timing), but missing with an attack or hitting an opponent's block leaves a player temporarily stunned
 
 Ranged combat
-Ranged weapons need to have limitations to make melee combat a viable part of the game. This can come from lack of accuracy or slow reload times. We need to figure out if we want limited ammo (forcing players to either go to choke points for ammo or use melee) or unlimited ammo (easier level design, lets players focus on objectives rather than ammo conservation)
+Ranged weapons need to have limitations to make melee combat a viable part of the game. Different weapons will have extreme bullet drop, poor accuracy, or slow projectiles. Tey will also have weapon condition. The weapon will reload its one shot quickly if its condition is good, but as the weapon fires the condtition level goes down and once it reaches 0 the reload is much slower. Players can repair their weapon at any time, but this is slow and they can't move while they do this. Players have unlimited ammo.
+
 
 Movement
 Pilots don’t move quickly, they’re covered in armor. Depending on their body type they get between 1 and 3 dashes to help them dodge enemies or close distances. They have, however, been imbued with magical powers that let them jump extremely high. Tapping the jump button makes the pilot do a tiny bunny hop. Holding it makes the pilot assume a squat and the longer the squat is held, the higher the pilot will jump, letting him jump over small buildings or to attack low-flying dragons, but makes him vulnerable while he charges that up.
 
 Health System
-Pilots have both armor and health. Armor takes permanent damage, but as long as there is some armor it absorbs most of the damage from attacks with only some going to health. Health regenerates, but once it runs out, a pilot is mortally wounded. Mortally wounded pilots have a small amount of health that drains until they die and can only use their dagger. Who or whatever mortally wounds a pilot is credited with the kill. Mortally wounded pilots can be instantly killed with a finishing move (dagger attack), which repairs the armor of whoever does the attack.
+Pilots have both armor and health. Armor takes permanent damage, and health regenerates. Attacks that hit the head are 50% absorbed by armor if there is any, attacks to the body are 75% absorbed by armor, and attacks to the limbs are 100% absorbed by armor. This means that there are tactical advantages and disadvantages for aiming for the head, since one can get a quick kill that way but won't do as much permanent armor damage. 
+If health runs out from a melee or dragon attack, the pilot immediately dies. If the pilot runs out of health from a ranged attack,the pilot is mortally wounded. Mortally wounded pilots have a small amount of health that drains until they die and can only use their dagger. Who or whatever mortally wounds a pilot is credited with the kill. Mortally wounded pilots can be instantly killed with a finishing move (dagger attack), which repairs the armor of whoever does the attack.
 AI enemies do not get mortally wounded, and just immediately die when they run out of health. Some attacks, such as dragon fire, bypass pilot armor completely.
-Attacks that hit the head are 50% absorbed by armor if there is any, attacks to the body are 75% absorbed by armor. This means that there are tactical advantages and disadvantages for aiming for the head, since one can get a quick kill that way but won't do as much permanent armor damage.
+
+Dragon health
 Dragons do not have armor- only health. Dragon health slowly regenerates on its own, but regenerates much faster when the dragon has a full belly. Players can fill their dragons' bellies by eating pilots and small AIs (not dragons or minotaurs). Belly fullness will last for a moderate amound of time, then drain back to 0, at which point the dragon regenerates health at the usual rate.
 
 Minimap
-Dragons provide minimap vision. If a friendly dragon is flying over or circling over an area, then you and all of your allies can see every AI and enemy player in a small area around that dragon.
+Dragons provide minimap vision. If a friendly dragon is flying over or circling over an area, then you and all of your allies can see every AI and enemy player in a small area around that dragon. Game mode objectives like command posts, flags, and showdown rivals always appear on the minimap.
 
 Dragonfall
 Every player has a fixed amount of time before they unlock a dragon. When a player completes actions towards the objective or gets kills, they reduce the amount of time on the timer. Once the timer expires, the player's dragon will fly into the map and circle above the max height, out of reach of other dragons and providing a circle of minimap vision. When the player presses the drop button, the dragon lands at or near where the player is aiming their reticle, killing whatever enemies it lands on and then becoming available to ride. Only the player that drops the dragon can ride it, and enemies that get near it will get attacked. Dragons are vulnerable on the ground like this, but can be ordered to follow the pilot (and attack what they attack) or stay put. If the dragon is far away and ordered to follow, it will fly over to the pilot.
@@ -49,9 +52,13 @@ Melee weapons:
 halfsword: longsword, boar sword, piercer/"zwongsowrd"
 special: poleaxe, dagger
 
+Standard attacks
+Slash- a daigonal slash attack that covers a sweeping area. Greatsword, messer, falchion, mace, poleaxe
+Thrust- a straightforward thrust attack that attacks a pinpoint. Estoc, sidesword, longsword, boar sword, piercer, dagger
+
 Special attacks
-Two handed weapons: Power slash. Hold to charge up, during which time the player can't move but can aim. When the attack is fully charged, release to lunge at the enemy and do massive damage
-Halfsword weapons: Pommel smash. A slower than normal but heavier than normal attack that involves quickly flipping over the right hand and swinging the sword down vertically.
+Two handed weapons: Power slash. Hold to charge up, during which time the player can't move but can aim. When the attack is fully charged, release to lunge at the enemy and do massive damage.
+Halfsword weapons: Pommel smash. A slower than normal attack that involves quickly flipping over the right hand and swinging the sword down vertically that bypasses blocks.
 One handed weapons: Spin. The player spins, doing less than normal damage, but doing it to every enemy in range in a circular area.
 
 Ranged weapons: (think sea of thieves type reload or CoD crossbow reload to balance out melee)
@@ -59,7 +66,7 @@ Weapon-special feature
 standard crossbow- quick switch to melee weapon
 repeating crossbow-multi bolt reload
 heatseeker- slight heatseeking effect
-quick reload crossbow- faster reload
+durable crossbow- fires way more shots before needing repair
 belly bow- charge down to fire harder shot
 scoped gun/bow- has a scope
 ? -no bullet drop
@@ -68,7 +75,7 @@ rocket gun- starts fires
 magician staff- only available from bonus card
 
 Anti Dragon Weapons
-ice dragon (tracks down enemy dragons, attacks and comes back OR fires an arcing ball that explodes in a big ball of ice flak)
+ice dragon (locks onto enemy dragons, then fires an ice ball that tracks down dragons and explodes in a big ball of ice flak. If dumb fired, the ice flak ball arcs heavily)
 laser dragon (pilot holds a dragon that charges up a laser shot like the charge rifle)
 anti-dragon pike (pilot crushes a gem that turns into a huge 18’ pike for meleeing dragons)
 
@@ -76,13 +83,13 @@ Defensive abilities
 Invisibility Cloak (turn invisible to dragons and far away enemies for a short time but can't attack or visibility returns)
 Magic Shield (fire-based attacks won't do any damage, but the shield is a big, highly visible sphere and other attacks still do damage)
 Kite Shield (plant in place and pull out a big shield that blocks fire where you are pointing it. Like melee weapon block, but much slower. Also effective against regular ranged attacks if pointed the right way, but look sensitivity is slowed too making it much easier to shoot them in the back)
-Holy Water Sprinkler (load a grenade into your ranged weapon that if it hits temporarily blinds dragons. Press reload to switch back)
+Holy Water Sprinkler (throw a grenade that if it hits temporarily blinds dragons)
 
 Pilot Perks
 Crouching Noble, Hidden from Dragon (when crouched and not firing a weapon, do not appear on minimap)
-Running Reload (can reload while moving)
+Running Repair (can repair ranged weapon while moving at crouch speed)
 Quick draw (switch between weapons more quickly)
-Come Hither towardst I, Sir Brother (increased movement speed with melee weapon drawn)
+Come Hither towardst I, Sir Brother (hitting opponents with your weapons marks them on your map for a short time)
 Big Hoister (knife attack pushes enemies further away than normal)
 
 Pilot body types
@@ -109,6 +116,7 @@ Warfighter (killing bots reduces the dragon time faster)
 Smoke bomb (defensive ability is replaced by a smoke bomb that teleports you to a safe place one time)
 Rematch (respawn where you died instead of at a command post)
 Neutral (enemy AIs won't attack you until you attack one of them, does not apply to knights)
+Well fed dragon (dragon has permanently full belly)
 
 Dragon fires:
 	4x Air to Air
@@ -151,12 +159,21 @@ Gameplay
 
 Friendly fire- teammates block your shots but do not take damage
 
-Game types: story (bf2 story style), instant action (bot matches), private match, public match
-Possible Game modes: conquest (attrition from titanfall + conquest from bf2), siege (cs:go but CTF), Cornucopia (grifball but on regular map w/ no dragons or minions, player with the cornucopia keeps eating out of it), Wizard (marked for death but the marked player has the poleaxe and the wizard staff), Wingman (2v2 round based dragons vs dragons). I think we should have at least 3 game types.
+Game types:
+story (bf2 story style, several bot matches)
+instant action (bot matches)
+private match
+public match
+Game modes: 
+Siege- Teams can capture the enemy flag and instantly win the game as long as they control one of the 3 command posts. Controlling more command posts also speeds up a team's dragon timers. If no one captures the flag, the game ends when one team reaches 300 attrition points (earned for killing enemy players and AIs), or if time expires, at which point the team with more attrition points wins. Attrition from Titanfall, Conquest from SWBF2, and capture the flag. 
+Showdown- Every player on a team is matched up with an opposing player who is their "rival". Rivals appear on each others' minimaps, and can only do damage to each other until one of them dies. The mode is round-based, with no respawning. The team with more players (or any players) alive at the end of the round wins it. If a player uses their dragon, it doesn't roll over to the next round. Marked for death from Titanfall, Competitive from CSGO
+Cornucopia- players get a polexe and their regular ranged weapon, and play in a small arena. The goal of the game is to carry the cornucopia into the opposing goal more times than the opponent. Grifball from Halo.
+Hunt- free for all. Players only get points for killing peasants. More peasants than normal spawn into the map. Hunt from SWBF2, free for all.
+Wingman- 2v2 round based dragons vs dragons. Round-based, no respawning, last dragon standing wins the round. Wingman LTS from Titanfall, Deathmatch from Ace Combat
 
-Respawning: Players will almost always spawn at command posts. In conquest mode, this means that players may not be able to spawn because their team does not control any command posts (can't respawn at neutral or enemy controlled ones). In other modes, command posts can't be captured and this is not an issue, or there isn't even respawning. The only way to respawn anywhere other than a command post is to use the rematch boost card.
+Respawning: Players will almost always spawn at command posts or at their base. In seige mode, this means that players may only be able to spawn at their base their team does not control any command posts (can't respawn at neutral or enemy controlled ones). In other modes, command posts can't be captured and this is not an issue, or there isn't even respawning. The only way to respawn anywhere other than a command post is to use the rematch boost card.
 
-Match start: in conquest, players ride into the battle on their dragons. In siege, the attacking team starts with dragons and the defenders don’t. In wizard, players start without dragons. In Cornucopia, there are no dragons at all.
+Match start: in seige, players ride into the battle on their dragons and can unlock them again. In showdown, players start without dragons and can unlock them but they don't carry over round to round. In Wingman, players start with dragons but they can't respawn. In Cornucopia, there are no dragons at all.
 
 Destructibility: Wood can be destroyed, stone cannot. Destroyed objects just get deleted when their health reaches 0, they don’t have progressive wear or anything. What this means is that dragons can destroy the roofs of houses to root out pesky enemies, pilots can cross bridges and then destroy them to keep from being followed, but that we can plan beforehand what people will destroy and build maps around that.
 
@@ -164,11 +181,11 @@ Teams
 There will always be a chrome team and a black team (we need names for these) based on the color of their armor. Whichever team the player is, their teammates will have blue accents and their enemies will have red ones- things like plumes, capes, etc. Minions will wear friendly colored clothes as well. I think 4v4 is a good team size, compromising the number of people in a team and the required playerbase.
 
 Minions
-The only mode that wouldn’t have minions would be cornucopia. Wingman and wizard modes shouldn’t have ballistas and gargoyles. In every other mode, archers (spectors), peasants (grunts), Men at Arms (bots who call in minotaurs instead of dragons) ballistas (anti-dragon), gargoyles (anti-pilot), and fat dragons (troop carriers). 
+The only mode that wouldn’t have minions would be cornucopia.  In every other mode, archers (spectors), peasants (grunts), Men at Arms (bots who call in minotaurs instead of dragons) ballistas (anti-dragon), minotaurs (anti-pilot), and fat dragons (troop carriers). 
 Production plan
 
-Source code search- 3PS, flying game, vehicle + nonvehicle
-3rd person movement- controls, camera, dashing, jumping
+Source code search- FPS, flying game, vehicle + nonvehicle
+1st person movement- controls, camera, dashing, jumping (COMPLETE)
 Ranged combat and armor with basic crossbow
 Melee combat and armor with basic sword
 Pilot classes and all the weapons
