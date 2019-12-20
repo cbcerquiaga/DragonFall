@@ -15,6 +15,9 @@ Pilots have both armor and health. Armor takes permanent damage, and health rege
 If health runs out from a melee or dragon attack, the pilot immediately dies. If the pilot runs out of health from a ranged attack,the pilot is mortally wounded. Mortally wounded pilots have a small amount of health that drains until they die and can only use their dagger. Who or whatever mortally wounds a pilot is credited with the kill. Mortally wounded pilots can be instantly killed with a finishing move (dagger attack), which repairs the armor of whoever does the attack.
 AI enemies do not get mortally wounded, and just immediately die when they run out of health. Some attacks, such as dragon fire, bypass pilot armor completely.
 
+Placing Shields
+Every pilot has the ability to place a shield on the ground once per life. This shield can'd be picked up and moved, but it can be destroyed. The shield can be used as cover against ranged attacks, or to block doorways. Shields can only be placed a certain distance from one another to prevent game-breaking setups. The shields are fireproof, so they can only be destroyed with standard attacks. Players will only fit completely behind their shield if they crouch.
+
 Dragon health
 Dragons do not have armor- only health. Dragon health slowly regenerates on its own, but regenerates much faster when the dragon has a full belly. Players can fill their dragons' bellies by eating pilots and small AIs (not dragons or minotaurs). Belly fullness will last for a moderate amound of time, then drain back to 0, at which point the dragon regenerates health at the usual rate.
 
@@ -23,6 +26,14 @@ Dragons provide minimap vision. If a friendly dragon is flying over or circling 
 
 Dragonfall
 Every player has a fixed amount of time before they unlock a dragon. When a player completes actions towards the objective or gets kills, they reduce the amount of time on the timer. Once the timer expires, the player's dragon will fly into the map and circle above the max height, out of reach of other dragons and providing a circle of minimap vision. When the player presses the drop button, the dragon lands at or near where the player is aiming their reticle, killing whatever enemies it lands on and then becoming available to ride. Only the player that drops the dragon can ride it, and enemies that get near it will get attacked. Dragons are vulnerable on the ground like this, but can be ordered to follow the pilot (and attack what they attack) or stay put. If the dragon is far away and ordered to follow, it will fly over to the pilot.
+
+Flight
+Flight controls start out in either simple (left stick makes turns) or advanced (left stick rolls) depending on a player's choice in the settings. Once they are in their dragon and flyinge, they will start with this control scheme and be able to switch back and forth with the push of a button. Players will also get a button to automatically level off the dragon to recover from advanced maneuvers and prevent crashes.
+Since the dragon is a living creature instead of a machine, it has some sentience and will automatically land if its feet are pointed the right way. Hitting the ground with the feet pointed the right way while at regular speed or while brakeing, the dragon will land and plant itself on the surface. If the accelerate button is held, the dragon will jump off of the surface and keep flying. If the dragon hits the ground with anything but its feet, then it will take damage. To help players land, they can use the pugachev's cobra maneuver.
+A unique aspect of the flight system is letting players execute the pugachev's cobra, which lets them point upwards relative to their flight direction for a short time. Holding this maneuver too long or attempting it while pointed at too high an angle of attack will lead to a stall. Players won't stall from any regular flight maneuvers.
+
+Dragon ground control
+If the dragon has landed or hasn't taken off yet, then it can move around on horizontal surfaces. If it has landed on a vertical survace, then it can look around and fire but it can't move except for taking off again. Dragons walk slowly (they don't run), so fast ground movement can only be achieved by hopping- quickly taking off and landing nearby.
 
 Boost Cards
 One life per match, players can activate a boost card. This boost will either be a buff that lasts the rest of the life (one extra dash, killing peasants reduces dragon time, poleaxe replaces melee weapon, wizard staff replaces ranged weapon, etc) or an expendable ability (drop a minotaur or ballista, call in a barrage, smoke bomb). Boost cards can only be used once per match, but players can use the same boost in as many matches as they would like. Players have to equip 3 boosts before the match, and they equip to the profile, not to individual loadouts. Boost cards are not available in certain game modes, as they would break wingman and cornucopia.
@@ -39,11 +50,11 @@ One of 5 passive perks
 29160 possible loadouts
 
 Every dragon has:
-Two of 12 fires (ranged)
+Two of 15 ranged attacks
 One of 3 melee attacks (think knife in CoD)
 One of 5 body types
-One of 4 perks
-3960 possible loadouts
+One of 5 perks
+7875 possible loadouts
 
 
 Melee weapons:
@@ -74,6 +85,16 @@ hook gun- suppression effect
 rocket gun- starts fires
 magician staff- only available from bonus card
 
+Reload types
+Crossbow: pull back the string, place a bolt
+Gunpowder: pour gunpowder, place projectile
+Mage staff: take out the old crystal, throw it on the ground, place a new crystal, feel pain
+
+Repair types
+Crossbow: hammer the bow to center it 
+Gunpowder: use ramrod to clean the barrel
+Mage staff: read spells from a spellbook
+
 Anti Dragon Weapons
 ice dragon (locks onto enemy dragons, then fires an ice ball that tracks down dragons and explodes in a big ball of ice flak. If dumb fired, the ice flak ball arcs heavily)
 laser dragon (pilot holds a dragon that charges up a laser shot like the charge rifle)
@@ -82,7 +103,7 @@ anti-dragon pike (pilot crushes a gem that turns into a huge 18’ pike for mele
 Defensive abilities
 Invisibility Cloak (turn invisible to dragons and far away enemies for a short time but can't attack or visibility returns)
 Magic Shield (fire-based attacks won't do any damage, but the shield is a big, highly visible sphere and other attacks still do damage)
-Kite Shield (plant in place and pull out a big shield that blocks fire where you are pointing it. Like melee weapon block, but much slower. Also effective against regular ranged attacks if pointed the right way, but look sensitivity is slowed too making it much easier to shoot them in the back)
+Second Shield (lets the player place a second shield in the same life)
 Holy Water Sprinkler (throw a grenade that if it hits temporarily blinds dragons)
 
 Pilot Perks
@@ -106,8 +127,11 @@ Title
 Boosts:
 Minotaur (auto titan, fights ground enemies)
 Ballista (static anti-dragon turret)
-Mage staff (super ranged weapon)- maybe should replace melee weapon too?
-Poleaxe (super melee weapon)- maybe should replace ranged weapon too?
+Thunder Mage Staff (fires a lightning bolt that chains between enemies
+Mystic Mage Staff (fires a slow but straight projectile that explodes when it lands)
+Power Mage Staff (hitting the trigger once launches the projectile, hitting it again explodes it)
+Ancient Mage Staff (locks onto minions and pilots, does massive damage to minions but needs multiple hits to kill pilots)
+Poleaxe (super melee weapon, does massive damage but has a slow block)
 Trebuchet strike (airstrike)
 Extra dash (adds one dash to current pilot body)
 Quick regen (health regenerates faster)
@@ -125,10 +149,12 @@ Multi-lock (attacks multiple enemies quickly but for little damage), single-lock
 Charge shot (the longer it’s charged, the faster it goes), standard (semi-auto), spray (short range wide angle continuous fire), rockets (lots of little fires super fast at once)
 	4x Air to ground
 Ground lock (locks onto ground enemies), bomb (lobs and then explodes), fog and spark (first drop cloud of green gas, then a spark to blow up the whole area), bouncer (launches 3 small fireballs that bounce around and then explode in small explosions)
+	3x Special
+Lightning (shoots a single lightning bolt that explodes when it lands. If anything gets hit by the explosion, then another lightning bolt will chain from them to nearby enemies), Spear throw (pilot throws a spear in the direction of looking instead of flight, the spear flies like a crossbow bolt), Acid spray (puts out fires, does bleed damage if it lands on a dragon)
 
 Dragon melees:
 Bite (standard knife)
-Gator roll (grab and hold, then flying around can do more damage)
+Tail spike (slower, more damage)
 Headbutt (less damage, but more range)
 
 Dragon abilities:
@@ -139,10 +165,11 @@ Harden (temporary immunity to ground attacks), Wyvern
 Afterburner (speed burst), Tarragon
 
 Dragon Perks:
-Health regen (dragon very slowly regenerates health)
+Grounded (increased movement speed while on the ground)
 Hard belly (slightly reduced damage from ground attacks)
 High flyer (increased max altitude)
 Big lunge  (increased melee range)
+Vision (extended minimap vision)
 
 Dragon body types
 Drake (standard dragon)
@@ -158,6 +185,29 @@ Head (unique to each body type)
 Gameplay
 
 Friendly fire- teammates block your shots but do not take damage
+
+The HUD:
+The HUD always shows:
+-health
+-armor
+-minimap
+-game score
+-dragon situation (how many dragons each team has and how many they can have)
+On the ground, players can see:
+-time until they get their dragon
+-how many dashes they have
+-whether or not they can use their defensive ability
+-the condition of their ranged weapon
+In the air, players can see:
+-the health of their dragon
+-how full their dragon's belly is
+-whether or not they can use their special ability
+-whether or not they are being locked onto
+Depending on the mode, players can see:
+-the state of teams' flags and command posts
+-who has the ball (cornucopia)
+-who their rival is (showdown)
+-whether or not they can damage the whole other team (showdown)
 
 Game types:
 story (bf2 story style, several bot matches)
@@ -229,7 +279,6 @@ No-man's land: An hourglass-shaped arena with tons of cover at either end and a 
 Hexagon: A hexagon-shaped arena modeled after the standard MOBA 3-lane map. The middle lane is the widest and shortest, meaning that a match focused here will end quickly, but to either side sits a relatively safe "jungle" which should mimic the gameplay in the forest area of the ravine map. Beyond the jungle are the two outside lanes, which are narrower. The outside lanes have a moderate amount of cover to protect against attacks from the same lane, but are completely safe from attacks from the middle lane unless they jump on top of the cover. The idea in this map is to let players use tactics they're already familiar with in a scenario that is relatively new to them.
  
 Monetization plan
-
 Preferred
 Sell specific aesthetics (dragon heads, banners, daggers, titles)
 Sell item pass to unlock new aesthetics with progression (like rocket league but permanent instead of seasonal)
